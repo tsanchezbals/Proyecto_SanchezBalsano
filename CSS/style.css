@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+ 
+}
+
+h1{
+   text-align: center;
+   background-color: #000000; 
+   color: white;
+   padding: 20px;
+}
+
+/* DISEÑOS BOTONES */
+
+nav {
+background-color: gray;
+width: 100%;
+list-style-type: none;
+text-align: center;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
+nav li:hover{
+    background-color: black;
+}
+
+/* DISEÑOS MAIN  */
+
+#banner{
+    width: 100%;
+}
+
+#banner img {
+    width: 100%;
+    height: 300PX;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* DISEÑOS SECTON */
+
+section {
+    background-color: #000000;
+}
+
+h3{
+    background-color: #000000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+p{
+    background-color: white;
+    padding: 20px;
+}
+
+
+article{
+    background-color: white;
+}
+
+/* DISEÑOS SECTION FORMULARIO */
+
+.form{
+    background-color: #000000;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 7px 13px 37px black;
+}
+
+.contact{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding: .8rem;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.contact label, .contact inpu, .contact textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.contact label {
+    font-weight: 700;
+}
+
+.contact input, contact textarea{
+    border: none;
+    border-bottom: 2px black;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+/* DISEÑOS FOOTER */
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+
