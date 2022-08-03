@@ -3,10 +3,6 @@
     margin: 0;
 }
 
-header{
- 
-}
-
 h1{
    text-align: center;
    background-color: #000000; 
@@ -14,7 +10,22 @@ h1{
    padding: 20px;
 }
 
-/* DISEÑOS BOTONES */
+h2{
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: white;
+    padding: 20px;   
+}
+
+p{
+    color: white;
+    padding: 20px;
+}
+
+/* DISEÑOS NAV BOTONES */
 
 nav {
 background-color: gray;
@@ -38,32 +49,6 @@ nav li:hover{
     background-color: black;
 }
 
-/* DISEÑOS MAIN  */
-
-#banner{
-    width: 100%;
-}
-
-#banner img {
-    width: 100%;
-    height: 300PX;
-}
-
-.contenedor{
-    width: 98%;
-    margin: auto;
-}
-
-#banner .contenedor{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-
 /* DISEÑOS SECTON */
 
 section {
@@ -77,20 +62,84 @@ h3{
     text-align: center;
 }
 
-p{
-    background-color: white;
-    padding: 20px;
+
+
+/* DISEÑOS GRID INICIO  */
+
+.iniciogrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 45px 40px 150px 40px 250px 40px;
 }
 
+/* DISEÑOS GRID NOSOTROS  */
 
-article{
-    background-color: white;
+.nosotrosgrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 40px 80px 40px 500px;
+}
+
+.map{
+    padding-top: 20px;
+}
+
+/* DISEÑOS GRID NOVEDADES */
+
+.novedadesgrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 40px 300px 400px;
+}
+
+/* DISEÑOS GRID CONTACTO */
+
+.contactogrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 40px 800px;
+}
+
+/* DISEÑOS GRID COMPRAR */
+
+.comprargrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 40px 40px auto 40px;
+}
+
+.card{
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text{
+    color: #000000;
+}
+
+.card-title{
+    background-color: gray;
+    color: #ffffff;
+}
+
+.comprar{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    background-color: gray;
+    color: #ffffff
 }
 
 /* DISEÑOS SECTION FORMULARIO */
 
 .form{
-    background-color: #000000;
+    background-color: #ffffff;
     width: 400px;
     position: absolute;
     top: 50%;
@@ -105,7 +154,7 @@ article{
     box-sizing: border-box;
     padding: .8rem;
     overflow: hidden;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .contact label, .contact inpu, .contact textarea{
@@ -128,20 +177,26 @@ article{
 /* DISEÑOS FOOTER */
 
 .footer{
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     width: 100%;
     list-style-type: none;
     text-align: center;
     display: inline-block;
     width: 100%;
     list-style-type: none;
-    text-align: center;
 }
 
 footer a{
     text-decoration: none;
-    color: white;
-    padding: 10px;
-    width: 150px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+
 }
+
+/* DISEÑOS BODY */
+
+body{
+    background-color: #000000;
+}
+
 
