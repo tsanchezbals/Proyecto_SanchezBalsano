@@ -6,31 +6,50 @@
 h1{
    text-align: center;
    background-color: #000000; 
-   color: white;
+   color: #ffffff;
    padding: 20px;
 }
 
 h2{
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
+    padding: 20px;
+
 }
 
 h3{
-    color: white;
-    padding: 20px;   
-}
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    background-color: #000000;
+ }
 
 p{
     color: white;
     padding: 20px;
 }
 
+header{
+    background-color: #000000;
+}
+
+section{
+    background-color: #000000;
+}
+
+main{
+    background-color: #000000;
+}
+
+body{
+    background-color: #000000;
+}
+
+
 /* DISEÑOS NAV BOTONES */
 
 nav {
 background-color: gray;
-width: 100%;
-list-style-type: none;
 text-align: center;
 }
 
@@ -42,26 +61,13 @@ nav a{
     text-decoration: none;
     color: white;
     padding: 10px;
-    width: 150px;
+    width: 200px;
 }
 
 nav li:hover{
     background-color: black;
+    color: #ffffff;
 }
-
-/* DISEÑOS SECTON */
-
-section {
-    background-color: #000000;
-}
-
-h3{
-    background-color: #000000;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
-
 
 
 /* DISEÑOS GRID INICIO  */
@@ -69,7 +75,15 @@ h3{
 .iniciogrid{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px 45px 40px 150px 40px 250px 40px;
+    grid-template-rows: 40px auto auto auto auto auto 40px;
+}
+
+.bannerinicio{
+    background: "imagenes/inicio1.jpg";
+}
+
+.divtransform{
+    transform: translate(50px, 20px);
 }
 
 /* DISEÑOS GRID NOSOTROS  */
@@ -77,7 +91,7 @@ h3{
 .nosotrosgrid{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px 40px 80px 40px 500px;
+    grid-template-rows: 40px auto auto auto auto auto 40px;
 }
 
 .map{
@@ -89,7 +103,7 @@ h3{
 .novedadesgrid{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px 40px 300px 400px;
+    grid-template-rows: 40px auto auto auto 40px;
 }
 
 /* DISEÑOS GRID CONTACTO */
@@ -97,7 +111,7 @@ h3{
 .contactogrid{
     display: grid;
     grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px 40px 800px;
+    grid-template-rows: 40px auto auto auto 40px;
 }
 
 /* DISEÑOS GRID COMPRAR */
@@ -132,57 +146,22 @@ h3{
     display: inline-block;
     width: 100%;
     list-style-type: none;
-    background-color: gray;
-    color: #ffffff
+    background-color: rgb(238, 255, 0);
+    color: #000000;
 }
 
 /* DISEÑOS SECTION FORMULARIO */
 
-.form{
-    background-color: #ffffff;
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 7px 13px 37px black;
-}
-
-.contact{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding: .8rem;
-    overflow: hidden;
-    color: rgb(0, 0, 0);
-}
-
-.contact label, .contact inpu, .contact textarea{
-    display: block;
-    width: 100%;
-    margin-bottom: 8px;
-}
-
-.contact label {
-    font-weight: 700;
-}
-
-.contact input, contact textarea{
-    border: none;
-    border-bottom: 2px black;
-    margin-bottom: 20px;
-    outline: none;
+.mb-3{
+    color: #ffffff;
 }
 
 /* DISEÑOS FOOTER */
 
 .footer{
     background-color: #000000;
-    width: 100%;
     list-style-type: none;
     text-align: center;
-    display: inline-block;
-    width: 100%;
     list-style-type: none;
 }
 
@@ -192,11 +171,3 @@ footer a{
     text-align: center;
 
 }
-
-/* DISEÑOS BODY */
-
-body{
-    background-color: #000000;
-}
-
-
