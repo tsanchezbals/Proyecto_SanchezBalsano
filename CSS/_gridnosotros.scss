@@ -1,0 +1,9 @@
+.nosotrosgrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px auto auto auto auto auto 40px;
+}
+
+.map{
+    padding-top: 20px;
+}

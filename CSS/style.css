@@ -1,173 +1,159 @@
-*{
-    padding: 0;
-    margin: 0;
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
 }
 
-h1{
-   text-align: center;
-   background-color: #000000; 
-   color: #ffffff;
-   padding: 20px;
+h1 {
+  text-align: center;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 20px;
 }
 
-h2{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px;
-
+h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
 }
 
-h3{
-    text-align: center;
-    color: #ffffff;
-    padding: 20px;
-    background-color: #000000;
- }
-
-p{
-    color: white;
-    padding: 20px;
+h3 {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  background-color: #000000;
 }
 
-header{
-    background-color: #000000;
+p {
+  color: white;
+  padding: 20px;
 }
 
-section{
-    background-color: #000000;
+header {
+  background-color: #000000;
 }
 
-main{
-    background-color: #000000;
+section {
+  background-color: #000000;
 }
 
-body{
-    background-color: #000000;
+main {
+  background-color: #000000;
 }
 
+body {
+  background-color: #000000;
+}
 
 /* DISEÑOS NAV BOTONES */
-
 nav {
-background-color: gray;
-text-align: center;
+  background-color: gray;
+  text-align: center;
+}
+nav li {
+  display: inline-flex;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width: 200px;
 }
 
-nav li{
-    display: inline-flex;
+nav li:hover {
+  background-color: black;
+  color: #ffffff;
 }
-
-nav a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    width: 200px;
-}
-
-nav li:hover{
-    background-color: black;
-    color: #ffffff;
-}
-
 
 /* DISEÑOS GRID INICIO  */
-
-.iniciogrid{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px auto auto auto auto auto 40px;
+.iniciogrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 40px auto auto auto auto auto 40px;
 }
 
-.bannerinicio{
-    background: "imagenes/inicio1.jpg";
+.bannerinicio {
+  background: "imagenes/inicio1.jpg";
 }
 
-.divtransform{
-    transform: translate(50px, 20px);
+.divtransform {
+  transform: translate(50px, 20px);
 }
 
 /* DISEÑOS GRID NOSOTROS  */
-
-.nosotrosgrid{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px auto auto auto auto auto 40px;
+.nosotrosgrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 40px auto auto auto auto auto 40px;
 }
 
-.map{
-    padding-top: 20px;
+.map {
+  padding-top: 20px;
 }
 
 /* DISEÑOS GRID NOVEDADES */
-
-.novedadesgrid{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px auto auto auto 40px;
+.novedadesgrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 40px auto auto auto auto 40px;
 }
 
 /* DISEÑOS GRID CONTACTO */
-
-.contactogrid{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px auto auto auto 40px;
+.contactogrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 40px auto auto auto 40px;
 }
 
 /* DISEÑOS GRID COMPRAR */
-
-.comprargrid{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr 0.5fr;
-    grid-template-rows: 40px 40px 40px auto 40px;
+.comprargrid {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  grid-template-rows: 40px 40px 40px auto 40px;
 }
 
-.card{
-    background-color: #ffffff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.card {
+  background-color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.card-text{
-    color: #000000;
+.card-text {
+  color: #000000;
 }
 
-.card-title{
-    background-color: gray;
-    color: #ffffff;
+.card-title {
+  background-color: gray;
+  color: #ffffff;
 }
 
-.comprar{
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
-    list-style-type: none;
-    background-color: rgb(238, 255, 0);
-    color: #000000;
+.comprar {
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  list-style-type: none;
+  background-color: rgb(238, 255, 0);
+  color: #000000;
 }
 
 /* DISEÑOS SECTION FORMULARIO */
-
-.mb-3{
-    color: #ffffff;
+.mb-3 {
+  color: #ffffff;
 }
 
 /* DISEÑOS FOOTER */
-
-.footer{
-    background-color: #000000;
-    list-style-type: none;
-    text-align: center;
-    list-style-type: none;
+.footer {
+  background-color: #000000;
+  list-style-type: none;
+  text-align: center;
+  list-style-type: none;
 }
-
-footer a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    text-align: center;
-
-}
+.footer footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

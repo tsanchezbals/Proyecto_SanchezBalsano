@@ -1,0 +1,39 @@
+.comprargrid{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    grid-template-rows: 40px 40px 40px auto 40px;
+}
+
+.card{
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text{
+    color: #000000;
+}
+
+.card-title{
+    background-color: gray;
+    color: #ffffff;
+}
+
+.comprar{
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(238, 255, 0);
+    color: #000000;
+}
+
+/* DISEÑOS SECTION FORMULARIO */
+
+.mb-3{
+    color: #ffffff;
+}
